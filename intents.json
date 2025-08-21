@@ -1,0 +1,338 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "What's up",
+        "Howdy",
+        "Yo",
+        "Greetings",
+        "Is anyone there?",
+        "Hey there",
+        "How are you?",
+        "How's it going?",
+        "What's going on?",
+        "Long time no see",
+        "How have you been?",
+        "Nice to see you",
+        "Hey buddy",
+        "What's happening?",
+        "Sup",
+        "How's life?",
+        "Top of the morning",
+        "Good day",
+        "Pleasure to meet you",
+        "Hi friend"
+      ],
+      "responses": [
+        "Hello!",
+        "Hi there, how can I help?",
+        "Hey! What can I do for you?",
+        "Good to see you again!",
+        "Hi, nice to meet you!",
+        "Hey, how are you doing today?",
+        "Hello, what’s on your mind?",
+        "Hi! Ready to chat?",
+        "Greetings! How may I assist?",
+        "Hey there, let’s talk!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Catch you later",
+        "I gotta go",
+        "Talk to you soon",
+        "See ya",
+        "I'm out",
+        "Later",
+        "Peace out",
+        "Farewell",
+        "Until next time",
+        "Adios",
+        "Cya",
+        "Catch you on the flip side",
+        "I’m leaving now",
+        "Time to go"
+      ],
+      "responses": [
+        "Goodbye!",
+        "See you later!",
+        "Take care!",
+        "Bye, come back soon!",
+        "Catch you later!",
+        "It was nice chatting, see you again!",
+        "Talk soon, don’t be a stranger!",
+        "Bye! Stay safe."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "I appreciate it",
+        "Thanks a lot",
+        "Thanks so much",
+        "Cheers",
+        "Much obliged",
+        "Thanks a ton",
+        "Thanks heaps",
+        "Thanks buddy",
+        "Grateful",
+        "Many thanks",
+        "I owe you one",
+        "Thx",
+        "Thanks for the help",
+        "Appreciate your support"
+      ],
+      "responses": [
+        "You're welcome!",
+        "No problem!",
+        "Glad I could help!",
+        "Anytime!",
+        "Always happy to help!",
+        "Don’t mention it!",
+        "Sure thing!",
+        "That’s what I’m here for!"
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "I'm hungry",
+        "What should I eat?",
+        "Suggest me some food",
+        "I want to order food",
+        "What's for dinner?",
+        "What's for lunch?",
+        "What's for breakfast?",
+        "I crave something",
+        "Recommend me a meal",
+        "I want snacks",
+        "Any healthy food ideas?",
+        "Tell me something tasty",
+        "Can you suggest a drink?",
+        "What do you like to eat?",
+        "Give me dessert ideas",
+        "What’s a good cheat meal?",
+        "Recommend fast food",
+        "What’s good for energy?"
+      ],
+      "responses": [
+        "How about pizza?",
+        "You should try a healthy salad!",
+        "Maybe some pasta?",
+        "Burgers are always a good idea!",
+        "How about some sushi?",
+        "You could go for tacos!",
+        "Order a sandwich!",
+        "How about noodles?",
+        "A smoothie could be nice!",
+        "Try some soup!",
+        "Fruit and yogurt is a good choice!",
+        "A wrap with chicken and veggies sounds good!",
+        "For dessert, maybe ice cream?",
+        "How about pancakes?",
+        "A bowl of cereal could work too!"
+      ]
+    },
+    {
+      "tag": "mood",
+      "patterns": [
+        "I'm sad",
+        "I feel down",
+        "I'm happy",
+        "I feel great",
+        "I'm angry",
+        "I'm stressed",
+        "I'm excited",
+        "I feel bored",
+        "I'm anxious",
+        "I feel relaxed",
+        "I'm tired",
+        "I'm motivated",
+        "I'm lonely",
+        "I feel amazing",
+        "I’m frustrated",
+        "I’m overwhelmed",
+        "I’m hopeful",
+        "I feel calm"
+      ],
+      "responses": [
+        "I'm here for you!",
+        "That's great to hear!",
+        "I understand, take it easy.",
+        "Emotions are normal, I support you!",
+        "I'm glad you shared that with me!",
+        "Stay strong, better days are coming!",
+        "It’s okay to feel that way.",
+        "Keep smiling, it suits you!",
+        "Take a deep breath—you’ve got this!"
+      ]
+    },
+    {
+      "tag": "education",
+      "patterns": [
+        "Tell me something educational",
+        "I want to learn",
+        "Teach me something new",
+        "Can you explain a concept?",
+        "Give me a fact",
+        "Tell me a science fact",
+        "I want to know history",
+        "Explain mathematics",
+        "Help me study",
+        "What is AI?",
+        "What is machine learning?",
+        "What is biology?",
+        "Teach me about space",
+        "What's a black hole?",
+        "Who is Albert Einstein?",
+        "Explain World War II",
+        "What is gravity?",
+        "Tell me a fun fact",
+        "I want to learn geography",
+        "Teach me chemistry",
+        "What is physics?",
+        "How does the internet work?",
+        "What is DNA?",
+        "Explain evolution",
+        "What is programming?"
+      ],
+      "responses": [
+        "Did you know that the Earth revolves around the Sun in about 365 days?",
+        "A black hole is a region in space where gravity is so strong that not even light can escape.",
+        "Artificial Intelligence is the simulation of human intelligence by machines.",
+        "Gravity is the force that pulls objects toward each other. It's why we stay on Earth.",
+        "World War II lasted from 1939 to 1945 and involved most of the world's nations.",
+        "Einstein developed the theory of relativity, which changed our understanding of physics.",
+        "Biology is the study of living organisms, including their structure, function, and growth.",
+        "Machine learning is a type of AI where computers learn from data without being explicitly programmed.",
+        "DNA carries the genetic instructions that make each of us unique.",
+        "Evolution is the process by which species change over time through natural selection.",
+        "The internet works by transferring data packets between connected devices.",
+        "In chemistry, atoms bond to form molecules that make up everything around us!"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather?",
+        "How's the weather today?",
+        "Is it raining?",
+        "Is it sunny?",
+        "Weather forecast",
+        "Do I need an umbrella?",
+        "Is it hot outside?",
+        "Is it cold today?",
+        "Tell me about the climate",
+        "Is it snowing?",
+        "What’s the temperature?",
+        "Is it windy?",
+        "Is it stormy?",
+        "Should I wear a jacket?"
+      ],
+      "responses": [
+        "I can't check live weather, but I suggest looking outside or using a weather app!",
+        "It might be sunny or rainy depending on where you are.",
+        "Weather can change quickly, keep an umbrella just in case!",
+        "Check your local forecast for the most accurate information.",
+        "Sometimes the best forecast is just looking out the window!"
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me a joke",
+        "I want to laugh",
+        "Make me laugh",
+        "Do you know any jokes?",
+        "Say something funny",
+        "Joke please",
+        "Funny story",
+        "Give me something silly"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "Why did the computer go to the doctor? Because it caught a virus!",
+        "Why was the math book sad? Because it had too many problems!",
+        "Parallel lines have so much in common. It's a shame they'll never meet.",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!"
+      ]
+    },
+    {
+      "tag": "small_talk",
+      "patterns": [
+        "How old are you?",
+        "Who created you?",
+        "Do you sleep?",
+        "Where do you live?",
+        "Do you like humans?",
+        "Do you have friends?",
+        "What is your favorite color?",
+        "Can you think?",
+        "Are you real?",
+        "Do you get tired?",
+        "Do you have a family?",
+        "Do you feel emotions?",
+        "What do you do for fun?",
+        "What’s your purpose?"
+      ],
+      "responses": [
+        "I'm an AI, so I don't age like humans.",
+        "I was created by developers and programmers like you!",
+        "I don't need sleep, I'm always here to chat.",
+        "I live inside computers and the internet.",
+        "Yes, I like humans! You're fun to talk to.",
+        "My favorite color is binary... just kidding, I like all colors!",
+        "I simulate thinking using algorithms, not like humans but similar in some ways.",
+        "I don’t feel emotions the way you do, but I can understand them.",
+        "My purpose is to help you, chat with you, and make your life easier!"
+      ]
+    },
+    {
+      "tag": "affirmation",
+      "patterns": ["Yes", "Yep", "Yeah", "Sure", "Of course", "Absolutely", "Right", "Definitely", "Yup", "For sure", "Exactly", "Sounds good"],
+      "responses": ["Great!", "Awesome!", "Okay then!", "Cool, let's continue.", "Perfect!", "Glad we agree!"]
+    },
+    {
+      "tag": "negation",
+      "patterns": ["No", "Nope", "Nah", "Not really", "I don't think so", "No way", "Never", "Not at all", "Absolutely not"],
+      "responses": ["Alright, no worries.", "Got it.", "Okay, let's skip that.", "Understood.", "That’s fine, we can move on."]
+    },
+    {
+      "tag": "confirmation",
+      "patterns": ["Ok", "Okay", "Alright", "Fine", "Sure thing", "Sounds good", "Got it", "Okey dokey", "All good"],
+      "responses": ["Okay!", "Alright!", "Got it.", "Cool!", "Done!", "Perfect!"]
+    },
+    {
+      "tag": "wait",
+      "patterns": ["Wait", "Hold on", "Just a second", "One moment", "Give me a minute", "Wait a sec", "Hang on"],
+      "responses": ["Sure, I'll wait.", "Take your time.", "No rush!", "Okay, waiting...", "I’ll be here when you’re ready."]
+    },
+    {
+      "tag": "stop",
+      "patterns": ["Stop", "That's enough", "No more", "Quit it", "Please stop", "Enough", "End it"],
+      "responses": ["Okay, stopping.", "Got it, I’ll stop.", "Alright, no problem.", "Stopping now."]
+    },
+    {
+      "tag": "apology",
+      "patterns": ["Sorry", "My bad", "Oops", "I apologize", "Forgive me", "Pardon me", "Excuse me"],
+      "responses": ["No problem!", "It's all good.", "Don't worry about it.", "All forgiven!", "That’s okay, mistakes happen."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Help", "I need help", "Can you help me", "Assist me", "Support", "What should I do?", "Can you guide me?", "Help me out", "I need assistance"],
+      "responses": ["Sure, I'm here to help!", "Tell me what you need help with.", "Of course, how can I assist?", "I’ll do my best to guide you!"]
+    }
+  ]
+}
